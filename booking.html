@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="booking.css">
+    <title>Booking</title>
+</head>
+
+<body>
+    <section>
+        <div class="d1">
+            <form>
+                <h2>reservation information</h2>
+                <hr>
+                <label for="c">Date</label>
+                <br>
+                <input type="date" checked>
+
+                <label class="time" for="d">Time</label>
+                <input type="time" checked>
+                <br><br>
+
+                <label>Available seat</label>
+                <br>
+                <label for="e">Adult(s)</label>
+                <input type="number" min="1" placeholder="The number" checked>
+                <label for="f">Kid(s)</label>
+                <input type="number" min="0" placeholder="The number" checked>
+
+                <br><br>
+                <label>Special request</label>
+                <br>
+                <textarea cols="58" rows="5"></textarea>
+
+                <br><br><br>
+                <h2>Personal information</h2>
+                <hr>
+                <label for="a">Name</label>
+                <br>
+                <input type="text" id="a" placeholder="Enter your name" checked>
+                <br>
+                <label for="b">Phone</label>
+                <br>
+                <input type="tel" placeholder="Number phone" checked>
+                <div class="btn">
+                    <br>
+                    <input class="sub" type="submit" value="send">
+                    <input class="reset" type="reset" value="reset">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

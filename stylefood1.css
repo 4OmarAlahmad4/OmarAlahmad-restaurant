@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 1 */
+.pp {
+    padding-left: 92px;
+}
+
+.aa {
+    padding-left: 74px;
+}
+
+.bb {
+    padding-left: 80px;
+}
+
+.cc {
+    padding-left: 86px;
+}
+
+.dd {
+    padding-left: 80px;
+}
+
+.ee {
+    padding-left: 50px;
+}
+
+/* 2 */
+.ppp {
+    padding-left: 93px;
+}
+
+.aaa {
+    padding-left: 73px;
+}
+
+.bbb {
+    padding-left: 84px;
+}
+
+.ccc {
+    padding-left: 70px;
+}
+
+.ema {
+    padding-left: 47px;
+}
+
+.fbq {
+    padding-left: 51px;
+}
+
+
+/* 3 */
+.be {
+    padding-left: 96px;
+}
+
+.le {
+    padding-left: 82px;
+}
+
+.sm {
+    padding-right: 0px;
+}
+
+.ma {
+    padding-left: 48px;
+}
+
+.ch {
+    padding-left: 82px;
+}
+
+.bq {
+    padding-left: 52px;
+}
+
+section {
+    /* background-color: antiquewhite; */
+    /* height: fit-content; */
+    /* display: flex; */
+    /* justify-content: center; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: fit-content;
+
+}
+
+.card {
+    padding: 50px 0px 0px 50px;
+    margin-top: 20px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #000;
+    min-width: 200px;
+    min-height: 200px;
+    /* overflow: hidden; */
+    border-radius: 20px;
+    transition: 0.7s ease;
+    width: 15%;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card p {
+    font-weight: 400;
+    font-family: fantasy;
+    display: flex;
+    justify-content: left;
+}
+
+
+.btn {
+    background-color: aqua;
+}

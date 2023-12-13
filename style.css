@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.nav a {
+    color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.log {
+    color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+.log:hover {
+    color: #000;
+}
+
+section {
+    padding: 100px 150px;
+
+
+    perspective: 400px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    background-color: antiquewhite;
+    height: fit-content;
+}
+
+.oo {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(photo/w11.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oo h2 {
+    color: white;
+    font-size: 70px;
+}
+
+.oo h3 {
+    color: bisque;
+    font-size: 30px;
+}
+
+.about {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.about .a {
+    padding-right: 200px;
+}
+
+.about {
+    padding: 100px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-width: 200px;
+    min-height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    width: 20%;
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.det {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.det a {
+    text-decoration: none;
+}
+
+.cf {
+    min-height: 40vh;
+    background: url(photo/con.jpg);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.cf2 a {
+    color: blue;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.cf2 {
+    background-color: rgba(185, 89, 89, 0.5);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 2.5em 5em;
+    letter-spacing: 1px;
+    border-radius: 80px;
+    margin-left: 700px;
+    transition: 0.7s ease;
+}
+
+.cf2:hover {
+    background-color: rgba(189, 126, 36, 0.5);
+    transform: scale(1.1);
+}
+
+
+.bk a {
+    color: blue;
+    text-decoration: none;
+}
+
+.bk {
+    font-weight: 700;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 80px;
+    padding: 25px;
+    transition: 1s ease;
+}
+
+.bk:hover {
+    transform: scale(1.1);
+}
+
+.bk a:active {
+    color: blueviolet;
+}
